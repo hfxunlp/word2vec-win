@@ -1,0 +1,28 @@
+﻿  word2phrase.c
+word2phrase.c(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2phrase.c(70): warning C4244: “return”: 从“unsigned __int64”转换到“int”，可能丢失数据
+word2phrase.c(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2phrase.c(107): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+word2phrase.c(108): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+word2phrase.c(94): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+word2phrase.c(113): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+word2phrase.c(195): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2phrase.c(166): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+word2phrase.c(193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+word2phrase.c(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2phrase.c(219): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+word2phrase.c(220): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+word2phrase.c(240): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+word2phrase.c(290): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2phrase.c(292): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2phrase.c(294): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+  正在生成代码
+  All 18 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  word2phrase.vcxproj -> E:\ano\Workspace\word2vec-win\vs\x64\word2phrase\x64\Release\word2phrase.exe
+  word2phrase.vcxproj -> E:\ano\Workspace\word2vec-win\vs\x64\word2phrase\x64\Release\word2phrase.pdb (Full PDB)

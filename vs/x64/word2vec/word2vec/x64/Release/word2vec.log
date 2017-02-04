@@ -1,0 +1,56 @@
+﻿  word2vec.c
+word2vec.c(48): warning C4305: “初始化”: 从“double”到“real”截断
+word2vec.c(53): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+word2vec.c(61): warning C4244: “函数”: 从“__int64”转换到“double”，可能丢失数据
+word2vec.c(63): warning C4244: “函数”: 从“__int64”转换到“double”，可能丢失数据
+word2vec.c(68): warning C4244: “函数”: 从“__int64”转换到“double”，可能丢失数据
+word2vec.c(70): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+word2vec.c(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2vec.c(103): warning C4244: “return”: 从“unsigned __int64”转换到“int”，可能丢失数据
+word2vec.c(130): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2vec.c(140): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+word2vec.c(141): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+word2vec.c(127): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+word2vec.c(146): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+word2vec.c(156): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+word2vec.c(211): warning C4244: “=”: 从“double”转换到“__int64”，可能丢失数据
+word2vec.c(255): warning C4244: “=”: 从“__int64”转换到“char”，可能丢失数据
+word2vec.c(261): warning C4244: “=”: 从“__int64”转换到“char”，可能丢失数据
+word2vec.c(262): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+word2vec.c(265): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+word2vec.c(278): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+word2vec.c(312): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+word2vec.c(321): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+word2vec.c(332): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+word2vec.c(340): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+word2vec.c(369): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+word2vec.c(384): warning C4244: “函数”: 从“__int64”转换到“long”，可能丢失数据
+word2vec.c(397): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+word2vec.c(425): warning C4244: “函数”: 从“__int64”转换到“long”，可能丢失数据
+word2vec.c(383): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+word2vec.c(408): warning C4244: “初始化”: 从“double”转换到“real”，可能丢失数据
+word2vec.c(571): warning C4312: “类型转换”: 从“long”转换到更大的“void *”
+word2vec.c(605): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+word2vec.c(573): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+word2vec.c(586): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+word2vec.c(692): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2vec.c(693): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2vec.c(694): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2vec.c(698): warning C4305: “=”: 从“double”到“real”截断
+word2vec.c(699): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+word2vec.c(700): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+word2vec.c(702): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+word2vec.c(713): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
+  正在生成代码
+e:\ano\workspace\word2vec-win\vs\x64\word2vec\word2vec\word2vec.c(557): warning C4716: “TrainModelThread”: 必须返回一个值
+  All 25 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  word2vec.vcxproj -> E:\ano\Workspace\word2vec-win\vs\x64\word2vec\x64\Release\word2vec.exe
+  word2vec.vcxproj -> E:\ano\Workspace\word2vec-win\vs\x64\word2vec\x64\Release\word2vec.pdb (Full PDB)
