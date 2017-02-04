@@ -1,2 +1,2 @@
 # word2vec-win
-word2vec tools based on windows compiled with visual studio 2015.
+Google word2vec(https://code.google.com/p/word2vec/) tools built for windows compiled with visual studio 2015 on Windows 10 x64.
