@@ -1,0 +1,33 @@
+# Project: word2vec
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+RES      = word2vec_private.res
+OBJ      = word2vec.o $(RES)
+LINKOBJ  = word2vec.o $(RES)
+LIBS     = -L"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib32" -L"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -L"E:/ano/Workspace/pthreads/Pre-built.2/lib/x86"  ../../../../pthreads/Pre-built.2/lib/x86/pthreadVC2.lib -m32
+INCS     = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"E:/ano/Workspace/pthreads/Pre-built.2/include"
+CXXINCS  = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/ano/Workspace/pthreads/Pre-built.2/include"
+BIN      = word2vec.exe
+CXXFLAGS = $(CXXINCS) -Ofast -m32
+CFLAGS   = $(INCS) -Ofast -m32
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+word2vec.o: word2vec.c
+	$(CC) -c word2vec.c -o word2vec.o $(CFLAGS)
+
+word2vec_private.res: word2vec_private.rc 
+	$(WINDRES) -i word2vec_private.rc -F pe-i386 --input-format=rc -o word2vec_private.res -O coff  --include-dir E:/ano/WORKSP~1/pthreads/PRE-BU~1.2/dll/x86
+
