@@ -7,4 +7,6 @@ If you have a large mount of parameters to train(a large number of words or high
 
 For files built with Visual Studio 2015, you should have Visual C++ Redistributable for Visual Studio 2015(https://www.microsoft.com/en-us/download/details.aspx?id=48145) installed in your system. For Windows version smaller than 10, you may need to install Universal C Runtime(https://support.microsoft.com/zh-cn/help/2999226/update-for-universal-c-runtime-in-windows) before you install the Visual C++ Redistributable for Visual Studio 2015.
 
-You could also try the files built with dev cpp, which are more universal and can easily run on many windows with different version. You could also try to compile these code your self with POSIX Threads (pthreads) for Win32(http://sourceware.org/pthreads-win32/).
+You could also try the files built with dev cpp, which are more universal and can easily run on many windows with different version.
+
+You could try to compile these code your self with POSIX Threads (pthreads) for Win32(http://sourceware.org/pthreads-win32/) if you want.
