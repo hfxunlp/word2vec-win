@@ -8,49 +8,49 @@ word2vec.c(70): warning C4244: “=”: 从“__int64”转换到“int”，可
 word2vec.c(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 word2vec.c(103): warning C4244: “return”: 从“unsigned __int64”转换到“int”，可能丢失数据
 word2vec.c(130): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-word2vec.c(136): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
+word2vec.c(136): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
 word2vec.c(140): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
 word2vec.c(141): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
 word2vec.c(146): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
-word2vec.c(154): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
+word2vec.c(154): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
 word2vec.c(156): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
-word2vec.c(172): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
-word2vec.c(207): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
-word2vec.c(208): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
-word2vec.c(209): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
+word2vec.c(172): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
+word2vec.c(207): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
+word2vec.c(208): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
+word2vec.c(209): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
 word2vec.c(211): warning C4244: “=”: 从“double”转换到“__int64”，可能丢失数据
 word2vec.c(255): warning C4244: “=”: 从“__int64”转换到“char”，可能丢失数据
 word2vec.c(261): warning C4244: “=”: 从“__int64”转换到“char”，可能丢失数据
 word2vec.c(262): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
 word2vec.c(265): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
 word2vec.c(278): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
 word2vec.c(312): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
 word2vec.c(321): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
 word2vec.c(332): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
 word2vec.c(340): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
-word2vec.c(353): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
-word2vec.c(356): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
-word2vec.c(362): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+word2vec.c(353): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
+word2vec.c(356): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
+word2vec.c(362): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
 word2vec.c(369): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
-word2vec.c(381): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
-word2vec.c(382): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
+word2vec.c(381): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
+word2vec.c(382): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
 word2vec.c(384): warning C4244: “函数”: 从“__int64”转换到“long”，可能丢失数据
 word2vec.c(397): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
 word2vec.c(425): warning C4244: “函数”: 从“__int64”转换到“long”，可能丢失数据
 word2vec.c(383): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
 word2vec.c(408): warning C4244: “初始化”: 从“double”转换到“real”，可能丢失数据
-word2vec.c(587): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
-word2vec.c(588): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
-word2vec.c(590): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
+word2vec.c(587): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
+word2vec.c(588): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
+word2vec.c(590): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
 word2vec.c(605): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
 word2vec.c(573): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
 word2vec.c(586): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
 word2vec.c(692): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 word2vec.c(693): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -59,11 +59,13 @@ word2vec.c(698): warning C4305: “=”: 从“double”到“real”截断
 word2vec.c(699): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
 word2vec.c(700): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 word2vec.c(702): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
-word2vec.c(709): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
+word2vec.c(709): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
 word2vec.c(713): warning C4244: “=”: 从“double”转换到“real”，可能丢失数据
   正在生成代码
-e:\ano\workspace\visual studio\projects\word2vec\word2vec\word2vec.c(557): warning C4716: “TrainModelThread”: 必须返回一个值
-  All 25 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+e:\ano\workspace\word2vec-win\vs\x86\word2vec\word2vec\word2vec.c(557): warning C4716: “TrainModelThread”: 必须返回一个值
+  25 of 25 functions (100.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
-  word2vec.vcxproj -> E:\ano\Workspace\visual studio\Projects\word2vec\Release\word2vec.exe
-  word2vec.vcxproj -> E:\ano\Workspace\visual studio\Projects\word2vec\Release\word2vec.pdb (Full PDB)
+  word2vec.vcxproj -> E:\ano\Workspace\word2vec-win\vs\x86\word2vec\Release\word2vec.exe
+  word2vec.vcxproj -> E:\ano\Workspace\word2vec-win\vs\x86\word2vec\Release\word2vec.pdb (Full PDB)

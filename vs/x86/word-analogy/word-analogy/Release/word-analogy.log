@@ -1,20 +1,22 @@
 ﻿  word-analogy.c
 word-analogy.c(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-word-analogy.c(49): warning C4244: “函数”: 从“const __int64”转换到“std::size_t”，可能丢失数据
-word-analogy.c(50): warning C4244: “函数”: 从“__int64”转换到“std::size_t”，可能丢失数据
+word-analogy.c(49): warning C4244: “函数”: 从“const __int64”转换到“::size_t”，可能丢失数据
+word-analogy.c(50): warning C4244: “函数”: 从“__int64”转换到“::size_t”，可能丢失数据
 word-analogy.c(66): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 word-analogy.c(119): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 word-analogy.c(136): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 word-analogy.c(139): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 word-analogy.c(42): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
 word-analogy.c(47): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
 word-analogy.c(48): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1195): note: 参见“fscanf”的声明
 word-analogy.c(34): warning C4101: “ch”: 未引用的局部变量
   正在生成代码
-  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  7 of 7 functions (100.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
-  word-analogy.vcxproj -> E:\ano\Workspace\visual studio\Projects\word-analogy\Release\word-analogy.exe
-  word-analogy.vcxproj -> E:\ano\Workspace\visual studio\Projects\word-analogy\Release\word-analogy.pdb (Full PDB)
+  word-analogy.vcxproj -> E:\ano\Workspace\word2vec-win\vs\x86\word-analogy\Release\word-analogy.exe
+  word-analogy.vcxproj -> E:\ano\Workspace\word2vec-win\vs\x86\word-analogy\Release\word-analogy.pdb (Full PDB)
