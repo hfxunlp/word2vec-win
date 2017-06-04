@@ -6,12 +6,12 @@ CC       = gcc.exe
 WINDRES  = windres.exe
 OBJ      = word2phrase.o
 LINKOBJ  = word2phrase.o
-LIBS     = -L"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib32" -L"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib32" -static-libgcc -L"E:/ano/Workspace/pthreads/Pre-built.2/lib/x86" ../../../../pthreads/Pre-built.2/lib/x86/pthreadVC2.lib -m32
-INCS     = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"E:/ano/Workspace/pthreads/Pre-built.2/include"
-CXXINCS  = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++" -I"E:/ano/Workspace/pthreads/Pre-built.2/include"
+LIBS     = -L"D:/Program Files (x86)/Dev-Cpp/MinGW64_new/lib32" -L"D:/Program Files (x86)/Dev-Cpp/MinGW64_new/x86_64-w64-mingw32/lib32" -static-libgcc -L"E:/ano/Workspace/pthreads/Pre-built.2/lib/x86" ../../../../pthreads/Pre-built.2/lib/x86/pthreadVC2.lib -m32
+INCS     = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64_new/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64_new/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64_new/lib/gcc/x86_64-w64-mingw32/7.1.0/include" -I"E:/ano/Workspace/pthreads/Pre-built.2/include"
+CXXINCS  = -I"D:/Program Files (x86)/Dev-Cpp/MinGW64_new/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64_new/x86_64-w64-mingw32/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64_new/lib/gcc/x86_64-w64-mingw32/7.1.0/include" -I"D:/Program Files (x86)/Dev-Cpp/MinGW64_new/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++" -I"E:/ano/Workspace/pthreads/Pre-built.2/include"
 BIN      = word2phrase.exe
-CXXFLAGS = $(CXXINCS) -Ofast -m32
-CFLAGS   = $(INCS) -Ofast -m32
+CXXFLAGS = $(CXXINCS) -march=native -mtune=native -Ofast -m32
+CFLAGS   = $(INCS) -march=native -mtune=native -Ofast -m32
 RM       = rm.exe -f
 
 .PHONY: all all-before all-after clean clean-custom
